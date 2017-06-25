@@ -365,10 +365,10 @@ video {
 }
 
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px){
+and (min-width : 375px)
+and (max-width : 667px){
 .mobile {
-  display: inline-blockflex;
+  display: inline-flex;
   height: 64px;
 }
 .desktop {
@@ -377,6 +377,4 @@ and (max-device-width : 667px){
 
 .logo {
   display:none;
-}
-
-}
+}}
